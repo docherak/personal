@@ -4,16 +4,28 @@
 }
 
 body {
-  margin: 50px 15vw;
+  margin: 10vw 15vw;
   height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 10vw;
+}
+
+header {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 40vw;
 }
 
 img#profilepic {
-  width: 30vh;
+  width: 10vw;
   border-style: none;
   border-radius: 50%;
 }
@@ -23,4 +35,5 @@ h1 {
 }
 
 p {
+  font-size: 1em;
 }
